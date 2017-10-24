@@ -78,11 +78,14 @@ header nav span {
   width: 1000px;
   padding-top: 70px;
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #productsList {
   display: flex;
-  
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 div.productItem {
