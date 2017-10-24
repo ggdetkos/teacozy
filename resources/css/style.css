@@ -12,7 +12,7 @@ a {
   color: seashell;
 }
 
-header a {
+header a.logo {
   text-decoration: none;
   line-height: 0;
 }
