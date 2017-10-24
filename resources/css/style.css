@@ -1,0 +1,9 @@
+/* Base CSS for The Tea Cozy */
+
+body {
+  background-color: #000000;
+  color: seashell;
+  font: 22px Helvetica, sans-serif;
+  opacity: 0.9;
+  text-align: center;
+}
