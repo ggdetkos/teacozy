@@ -12,6 +12,11 @@ a {
   color: seashell;
 }
 
+header a {
+  text-decoration: none;
+  line-height: 0;
+}
+
 header {
   height: 69px;
   width: 100%;
