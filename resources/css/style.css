@@ -1,6 +1,5 @@
 /* Base CSS for The Tea Cozy */
 
-
 /* General Styles */
 body {
   background-color: #000000;
@@ -132,6 +131,7 @@ h4.productName {
 
 .locationAddress {
   background-color: #000000;
+  opacity: 1;
   width: 300px;
   margin: 0 20px 10px;
 }
