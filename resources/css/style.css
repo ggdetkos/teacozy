@@ -15,6 +15,10 @@ a {
   color: seashell;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 /* Header Style */
 header a.logo {
   text-decoration: none;
@@ -140,4 +144,50 @@ h4.productName {
 #copyright {
   text-align: left;
   margin-left: 20px;
+}
+
+/* EXPERIMENTING WITH Resizing for Mobile Phone Screens */
+@media only screen and (max-width: 480px) {
+
+/* Header Resizing */
+  header {
+    height: 75px;
+  }
+  
+  header img#logo {
+    height: 45px;
+    margin-left: 0;
+  }
+
+  header nav {
+    text-align: center;
+  }
+  
+  header nav span { 
+    font-size: 0.7em;
+    padding: 0 10px 0  0; 
+  }
+
+/* Page Content Resizing */  
+  #mission {
+    height: 500px;
+  }
+  
+  .productImage {
+    width: 80%;
+  }
+  
+  #locations {
+    height: 800px;
+  }
+  
+  .locationAddress {
+    font-size: 0.8em;
+    width: 80%;
+  }
+
+/* Footer Resizing */
+  #copyright {
+    font-size: 0.7em;
+  }
 }
