@@ -84,7 +84,7 @@ header nav span {
 
 #productsList {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -93,6 +93,7 @@ div.productItem {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 
 img.productImage {
@@ -100,7 +101,8 @@ img.productImage {
 }
 
 h4.productName {
-  padding-top: 10px;
+  padding-top: 20px;
+  margin-top: 0;
 }
 
 /* Footer Styles */
