@@ -68,8 +68,7 @@ header nav span {
 }
 
 #missionTagLine,
-#productsTagLine,
-#locationsTagLine {
+#productsTagLine {
   background-color: #000000;
   width: 100%;
 }
@@ -103,6 +102,34 @@ img.productImage {
 h4.productName {
   padding-top: 20px;
   margin-top: 0;
+}
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  margin-top: 70px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#locationsTagLine {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+#locationsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.locationAddress {
+  background-color: #000000;
+  width: 300px;
+  margin: 0 20px 10px;
 }
 
 /* Footer Styles */
